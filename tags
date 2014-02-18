@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+InterfaceRequest	interface_request.py	/^class InterfaceRequest:$/;"	c
+Interface_request	model_demo.py	/^from urllib2_interface_request import Interface_request$/;"	i
+Interface_request	urllib2_interface_request.py	/^class Interface_request:$/;"	c
+__init__	interface_request.py	/^	def __init__(self):$/;"	m	class:InterfaceRequest
+__init__	urllib2_interface_request.py	/^	def __init__(self):$/;"	m	class:Interface_request
+buf	pythonsocket\download.py	/^	buf = f.read(2048)$/;"	v
+f	pythonsocket\download.py	/^f = urllib.urlopen(host)$/;"	v
+filename	pythonsocket\socket_client_demo.py	/^filename = sys.argv[2]$/;"	v
+hashlib	interface_request.py	/^import hashlib$/;"	i
+hashlib	urllib2_interface_request.py	/^import hashlib$/;"	i
+host	pythonsocket\download.py	/^host = sys.argv[1]$/;"	v
+host	pythonsocket\socket_client_demo.py	/^host = sys.argv[1]$/;"	v
+i	interface_request.py	/^i = InterfaceRequest();$/;"	v
+irq	model_demo.py	/^irq = Interface_request()$/;"	v
+irq	urllib2_interface_request.py	/^	irq = Interface_request()$/;"	v	class:Interface_request
+json	json_parse.py	/^import json;$/;"	i
+json	urllib2_interface_request.py	/^import json$/;"	i
+o_res	urllib2_interface_request.py	/^	o_res = json.loads(res)$/;"	v	class:Interface_request
+port	pythonsocket\socket_client_demo.py	/^port = 80$/;"	v
+query_user_exchange_log	interface_request.py	/^	def query_user_exchange_log(self, flag, member_name, start_time, end_time):$/;"	m	class:InterfaceRequest
+query_user_exchange_log	urllib2_interface_request.py	/^	def query_user_exchange_log(self, flag, member_name, start_time, end_time):$/;"	m	class:Interface_request
+rec	pythonsocket\socket_client_demo.py	/^    rec = soc.recv(2048)$/;"	v
+requests	interface_request.py	/^import requests$/;"	i
+res	model_demo.py	/^res = irq.query_user_exchange_log("from", "geksong", "13687098","1334569")$/;"	v
+res	urllib2_interface_request.py	/^	res = irq.query_user_exchange_log("from", "geksong", "13687098","1334569")$/;"	v	class:Interface_request
+soc	pythonsocket\socket_client_demo.py	/^soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+socket	pythonsocket\socket_client_demo.py	/^import socket$/;"	i
+stri	json_parse.py	/^stri = '{"id":2345, "name":"zhangsong", "grade":{"yuwen":60, "shuxue":70}}';$/;"	v
+sys	pythonsocket\download.py	/^import sys$/;"	i
+sys	pythonsocket\socket_client_demo.py	/^import sys$/;"	i
+text	json_parse.py	/^text = json.loads(stri);$/;"	v
+urllib	pythonsocket\download.py	/^import urllib$/;"	i
+urllib	urllib2_interface_request.py	/^import urllib$/;"	i
+urllib2	urllib2_interface_request.py	/^import urllib2$/;"	i
