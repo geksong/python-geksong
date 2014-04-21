@@ -23,7 +23,3 @@ def digest_as_md5(data):
 		m.update(data)
 		return m.hexdigest()
 	return ""
-	
-if __name__ == '__main__':
-	res = digest_as_md5("123456")
-	print res
